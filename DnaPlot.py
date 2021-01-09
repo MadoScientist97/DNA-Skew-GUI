@@ -401,13 +401,7 @@ def genGraph():
 
 if __name__=="__main__":
   root=tk.Tk()
-  root.geometry("1100x800")
-  
-  background_image=tk.PhotoImage(file="b.gif")
-  background_label = tk.Label(root, image=background_image)
-  background_label.image=background_image
-  background_label.place(x=0, y=0, relwidth=1, relheight=1)
-  #background_label.grid(row=0,column=0)
+  root.geometry("1200x1000")
 
   root.title('DNA sequence Processor')
   
